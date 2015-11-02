@@ -1,0 +1,42 @@
+{
+  "name": "randomize-string",
+  "description": "Randomize the characters in the given string. Optionally pass a max length as the second argument.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/randomize-string",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/randomize-string",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/randomize-string/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "is-number": "^2.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "randomize",
+    "string"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "randomatic",
+        "repeat-string",
+        "pad-left",
+        "pad-right"
+      ]
+    }
+  }
+}
